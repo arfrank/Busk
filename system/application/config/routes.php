@@ -41,6 +41,7 @@
 */
 
 $route['default_controller'] = "app";
+$route['(:any)']="app/$1";
 $route['scaffolding_trigger'] = "";
 
 
