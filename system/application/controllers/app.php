@@ -7,6 +7,10 @@ class App extends Controller {
 		parent::Controller();	
 	}
 	
+	function login(){
+		
+	}
+	
 	function index()
 	{
 		$this->load->view('home');
