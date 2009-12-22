@@ -7,7 +7,7 @@ class App extends Controller {
 		parent::Controller();	
 	}
 	
-	function Faq(){
+	function faq(){
 		$data['title']="Busk.tv FAQ";
 		$this->load->view('faq',$data);
 	}
