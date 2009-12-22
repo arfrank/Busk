@@ -12,8 +12,9 @@ class App extends Controller {
 		$this->load->view('faq',$data);
 	}
 	
-	function login(){
-		
+	function play(){
+		$data['title']="Bust.tv Live Busk Recorder";
+		$this->load->view('play',$data);
 	}
 	
 	function index()
