@@ -7,6 +7,11 @@ class App extends Controller {
 		parent::Controller();	
 	}
 	
+	function Faq(){
+		$data['title']="Busk.tv FAQ";
+		$this->load->view('faq',$data);
+	}
+	
 	function login(){
 		
 	}
