@@ -13,7 +13,8 @@ class App extends Controller {
 	
 	function index()
 	{
-		$this->load->view('home');
+		$data['title']="Busking Online Live";
+		$this->load->view('home',$data);
 	}
 }
 
