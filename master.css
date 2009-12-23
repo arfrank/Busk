@@ -38,7 +38,9 @@ a:visited, a:hover{
 li:hover{
 	background: #22FF33;
 }
-
+#page_title{
+	text-decoration: underline;
+}
 #top_bar li{
 	padding: 10px;
 	list-style:none;
