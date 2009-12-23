@@ -8,18 +8,18 @@ class App extends Controller {
 	}
 	
 	function faq(){
-		$data['title']="Busk.TV FAQ";
+		$data['title']="FAQ";
 		$this->load->view('faq',$data);
 	}
 	
 	function play(){
-		$data['title']="Bust.TV Live Busk Recorder";
+		$data['title']="Live Busking Broadcaster";
 		$this->load->view('play',$data);
 	}
 	
 	function index()
 	{
-		$data['title']="Busking Online Live";
+		$data['title']="Live Busking Online";
 		$this->load->view('home',$data);
 	}
 }
