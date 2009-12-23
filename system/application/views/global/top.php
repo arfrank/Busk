@@ -8,6 +8,7 @@
 	</script>
 </head>
 <body>
+<div id="bg">
 <div id="top_bar">
 <a href="/"><li>Home</li></a>
 <a href="/play"><li>Play</li></a>

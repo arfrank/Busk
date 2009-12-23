@@ -1,10 +1,14 @@
 body{
 	margin: 0 auto;
 	width:980px;
-	background:#fff333;
+	background:#dddddd;
 	border:3px solid #ffffff;
 	font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
 	font-size:18px;
+}
+#bg{
+	background:#fff333;
+	min-height:100%;
 }
 a{
 	text-decoration: none;
@@ -15,7 +19,10 @@ a:visited, a:hover{
 #content{
 	padding-top:15px;
 	text-align:center;
-	height:500px;
+	height:500px;	
+}
+#faq{
+	text-align:left;
 }
 #title{
 	font-weight:bold;
@@ -37,7 +44,9 @@ li:hover{
 	list-style:none;
 	display:inline;
 }
-
+#bottom_bar{
+	text-align:center;
+}
 #bottom_bar li{
 	border:1px solid #000000;
 	list-style:none;
