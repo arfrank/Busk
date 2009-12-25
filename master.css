@@ -24,6 +24,14 @@ a:visited, a:hover{
 #faq{
 	text-align:left;
 }
+#login{
+	float:left;
+	width:475px;
+}
+#register{
+	float:right;
+	width:475px;
+}
 #title{
 	font-weight:bold;
 	font-size: 24px;

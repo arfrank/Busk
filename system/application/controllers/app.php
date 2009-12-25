@@ -13,6 +13,7 @@ class App extends Controller {
 	}
 	
 	function play(){
+		
 		$data['title']="Live Busking Broadcaster";
 		$this->load->view('play',$data);
 	}
@@ -21,6 +22,14 @@ class App extends Controller {
 	{
 		$data['title']="Live Busking Online";
 		$this->load->view('home',$data);
+	}
+	
+	function join(){
+		$data['title']="Join/Login";
+		$this->load->view('join',$data);
+	}
+	function login(){
+//		if($this-)
 	}
 }
 
