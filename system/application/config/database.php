@@ -38,7 +38,7 @@ $active_group = "default";
 $active_record = TRUE;
 
 $db['default']['hostname'] = "localhost";
-$db['default']['username'] = "ninja_b";
+$db['default']['username'] = "";
 $db['default']['password'] = "";
 $db['default']['database'] = "busktv";
 $db['default']['dbdriver'] = "mysql";
