@@ -16,6 +16,9 @@ a{
 a:visited, a:hover{
 	color: #ffffff;
 }
+.clearer{
+	clear:both;
+}
 #content{
 	padding-top:15px;
 	text-align:center;
@@ -28,9 +31,17 @@ a:visited, a:hover{
 	float:left;
 	width:475px;
 }
+#tblogin{
+	padding-top:10px;
+	margin:0 auto;
+}
 #register{
 	float:right;
 	width:475px;
+}
+#tbregister{
+	padding-top:10px;
+	margin:0 auto;
 }
 #title{
 	font-weight:bold;
