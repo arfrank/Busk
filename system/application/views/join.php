@@ -29,12 +29,7 @@ $(document).ready(function(){
 	$('form').submit(function(){
 		$.each($('input:password'),function(x,y){
 			
-			alert(y.value);
 		});
-//		if($(this).attr('name')=='register'){
-//			$(alert('register');
-//		}
-//		$('input')
 	});
 });
 </script>

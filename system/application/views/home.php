@@ -3,7 +3,7 @@
 ?>
 <div id="title">Currently Busking:</div>
 <div id="busk_video">
-<object type="application/x-shockwave-flash" height="480" width="640" id="live_embed_player_flash" data="http://www.justin.tv/widgets/live_embed_player.swf?channel=busktv" bgcolor="#000000"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="movie" value="http://www.justin.tv/widgets/live_embed_player.swf" /><param name="flashvars" value="channel=busktv&auto_play=true&start_volume=25&enable_javascript=true" /></object>
+<object type="application/x-shockwave-flash" height="480" width="640" id="live_embed_player_flash" data="http://www.justin.tv/widgets/live_embed_player.swf?channel=busktv" bgcolor="#000000"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="movie" value="http://www.justin.tv/widgets/live_embed_player.swf" /><param name="flashvars" value="namespace=busktv&auto_play=true&start_volume=25&enable_javascript=true" /></object>
 </div>
 <div id="info">
 <span>Busker:</span><span id="busker_name"><?php //echo $name; ?></span></div>

@@ -1,13 +1,15 @@
 body{
 	margin: 0 auto;
 	width:980px;
-	background:#dddddd;
-	border:3px solid #ffffff;
+	background:#777777;
+	border:10px solid #ffffff;
 	font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
 	font-size:18px;
+	border-right: 25px solid #ffffff;
+	border-left: 25px solid #ffffff;
 }
 #bg{
-	background:#fff333;
+	background:#cccccc;
 	min-height:100%;
 }
 a{
@@ -52,10 +54,10 @@ a:visited, a:hover{
 	padding-bottom:10px;
 	text-align:center;
 	width:100%;
-	background:#ff3210;
+	background:#aaaaaa;
 }
 li:hover{
-	background: #22FF33;
+	background: #555555;
 }
 #page_title{
 	text-decoration: underline;
@@ -72,4 +74,10 @@ li:hover{
 	border:1px solid #000000;
 	list-style:none;
 	display:inline;
+}
+#play_form{
+	margin:0 auto;
+}
+.label{
+	text-align:right;
 }
