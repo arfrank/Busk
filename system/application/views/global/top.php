@@ -11,8 +11,14 @@
 <div id="bg">
 <div id="top_bar">
 <a href="/"><li>Home</li></a>
+<?php if($this->session->userdata('user_id')) { ?>
 <a href="/play"><li>Play</li></a>
+<?php } ?>
 <a href="/faq"><li>FAQ</li></a>
-<a href=""><li>Register/Login</li></a>
+<?php if(! $this->session->userdata('user_id')) { ?>
+	<a href="/join"><li>Register/Login</li></a>
+<?php }else{ ?>
+<a href="/logout"><li>Logout</li></a>
+<?php } ?>
 </div>
 <div id="content">

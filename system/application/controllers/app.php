@@ -14,7 +14,7 @@ class App extends Controller {
 	
 	function play(){
 		if($this->session->userdata('user_id')){
-			
+			//get oauth stuff
 		}else{
 			redirect('/join');
 		}
@@ -48,7 +48,7 @@ class App extends Controller {
 		//Forward us to justin.tv for auth
 		Header("Location: $auth_url");
 		/**/
-		$data['title']="Live Busking Broadcaster";
+		$data['title']="Broadcast";
 		$this->load->view('play',$data);
 	}
 	
@@ -62,8 +62,20 @@ class App extends Controller {
 		$data['title']="Join/Login";
 		$this->load->view('join',$data);
 	}
+
 	function login(){
-//		if($this-)
+		$this->session->set_userdata('user_id',4);
+		redirect('/');
+	}
+	
+	function register(){
+		$this->session->set_userdata('user_id',4);
+		redirect('/');
+		
+	}
+	
+	function logout(){
+		$this->session->unset_userdata('user_id');
 	}
 }
 
